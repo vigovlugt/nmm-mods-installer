@@ -10,7 +10,7 @@ pub struct Args {
 #[derive(Subcommand)]
 pub enum Commands {
     Install,
-    // Add,
+    Add { mod_id: u32 },
     // Remove,
     // List,
 }
